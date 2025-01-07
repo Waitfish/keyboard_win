@@ -3,6 +3,8 @@ name = "keyboard_win"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "A mini tools for Windows keyboard by winapi"
+
 
 [dependencies]
 [target.'cfg(windows)'.dependencies]

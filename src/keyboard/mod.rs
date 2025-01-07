@@ -33,7 +33,6 @@ pub fn key_press(hwnd: windef::HWND, key: usize) {
 mod keyboard_tests {
     use super::*;
     use std::ffi::CString;
-    use winapi::um::winuser::{VK_NUMPAD0, VK_OEM_3, VK_RETURN};
 
     #[test]
     fn get_hwnd_by_title() {
